@@ -62,7 +62,7 @@ h1{
 }
 
 .right-col{
-    padding: 2rem 5rem 5rem 3rem;
+    padding: 1rem 5rem 5rem 3rem;
 }
 
 .create-account-btn{
@@ -82,7 +82,17 @@ h1{
 }
 
 input{
-    color:#E5E7EB;
+    width: 12.5rem;
+    border: 1px solid hsl(223, 7%, 63%);
+    border-radius: 3px;
+    height: 26px;
+    padding:6px;
+}
+
+input:focus{
+    border: 1.5px solid hsl(224deg 68% 60%);
+    outline: none;
+    box-shadow: 1px 1px 1px .75px hsl(0deg 0% 83%)
 }
 
 .right-col > .header-text{
