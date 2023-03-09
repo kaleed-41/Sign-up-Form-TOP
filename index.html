@@ -26,34 +26,59 @@
 
         <!-- right col -->
         <div class="right-col">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your depest dreams. Sign up now to get started</p>
+            <div class="header-text">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your depest dreams. Sign up now to get started</p>
             
-            <p>You know you want to.</p>
+                <p>You know you want to.</p>
+            </div>
 
-            <p>Let's do this!</p>
-            <form action="">
-                <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name">
+            <div class="form-section">
+                <p>Let's do this!</p>
+                <form action="">
 
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name">
-                
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-                
-                <label for="phone-number">Phone Number</label>
-                <input type="tel" name="phone-number" id="phone-number">
+                    <!-- first column in form -->
+                    <div class="col" id="col-1">
+                        <div class="form-control">
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
 
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">
+                        <div class="form-control">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
 
-                <label for="confirm-password">Confirm Password</label>
-                <input type="password" name="confirm-password" id="confirm-password">                
-            </form>
+                        <div class="form-control">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                    </div>
+                    
+                    <!-- second column in form -->
+                    <div class="col" id="col-2">
+                        <div class="form-control">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                        
+                        <div class="form-control">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel" name="phone-number" id="phone-number">
+                        </div>
 
-            <button>Create Account</button>
+                        <div class="form-control">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" name="confirm-password" id="confirm-password">  
+                        </div>
+                    </div>
+                                  
+                </form>
 
-            <p>Already have an account? <span>Log in</span></p>
+            </div>
+            
+            <button class="create-account-btn">Create Account</button>
+
+            <p>Already have an account? <span class="log-in-text">Log in</span></p>
         </div>
    </div>
 </body>
