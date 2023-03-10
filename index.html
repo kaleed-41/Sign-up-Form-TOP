@@ -17,7 +17,7 @@
                 <div class="logo">
                     <img class="odin-img" src="odin.png" alt="" srcset="">
 
-                    <h1>ODIN</h1>
+                    <h1 class="odin-text">ODIN</h1>
                 </div>
             </div>
         </div>
@@ -40,17 +40,22 @@
                     <div class="col" id="col-1">
                         <div class="form-control">
                             <label for="first-name">First Name</label>
+                            
                             <input type="text" name="first-name" id="first-name">
+                            
+                            <div class="error"></div>
                         </div>
 
                         <div class="form-control">
                             <label for="email">Email</label>
                             <input type="email" name="email" id="email">
+                            <div class="error"></div>
                         </div>
 
                         <div class="form-control">
                             <label for="password">Password</label>
                             <input type="password" name="password" id="password">
+                            <div class="error"></div>
                         </div>
                     </div>
                     
@@ -59,16 +64,19 @@
                         <div class="form-control">
                             <label for="last-name">Last Name</label>
                             <input type="text" name="last-name" id="last-name">
+                            <div class="error"></div>
                         </div>
                         
                         <div class="form-control">
                             <label for="phone-number">Phone Number</label>
                             <input type="tel" name="phone-number" id="phone-number">
+                            <div class="error"></div>
                         </div>
 
                         <div class="form-control">
                             <label for="confirm-password">Confirm Password</label>
                             <input type="password" name="confirm-password" id="confirm-password">  
+                            <div class="error"></div>
                         </div>
                     </div>
                                   
@@ -81,5 +89,6 @@
             <p>Already have an account? <span class="log-in-text">Log in</span></p>
         </div>
    </div>
+   <script src="./index.js"></script>
 </body>
 </html>
