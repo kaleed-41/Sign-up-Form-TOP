@@ -173,10 +173,19 @@ label{
 }
 
 /* .bg-img{
-    background-image: url("../halie-west.jpg");
-    max-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    height: 100vh;
 } */
+
+.credit{
+    position: relative;
+    bottom: 27px;
+    color: white;
+    text-align: center;
+}
+
+.credit > a{
+    color: #fff;
+}
