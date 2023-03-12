@@ -14,16 +14,16 @@ body{
 
 .container{
     display: flex;
-    height: 100vh;
+    max-height: 100vh;
 }
 
 .left-col{
-    width:40%;
+    max-width:40%;
     position: relative;
 }
 
 .right-col{
-    width:60%;
+    max-width:60%;
     /* padding: 3rem; */
 }
 
@@ -51,7 +51,7 @@ label{
 }
 
 .odin-img{
-    width: 15%;
+    max-width: 15%;
 }
 
 .logo{
@@ -119,6 +119,38 @@ form{
     display: flex;
 }
 
+@media (max-width: 54rem){
+    form{
+        display: block;
+    }
+
+    
+    .form-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-col, .left-col{
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background-img{
+        height: 100vh
+    }
+}
+
 form > div{
     width: 50%;
 }
@@ -139,3 +171,12 @@ label{
     text-decoration: underline;
     cursor: pointer;
 }
+
+/* .bg-img{
+    background-image: url("../halie-west.jpg");
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
