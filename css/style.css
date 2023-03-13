@@ -46,8 +46,9 @@ label{
 
 .odin-text{
     color: white;
-    font-family: 'Norse', Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Norse Bold', Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: 6rem;
 }
 
 .odin-img{
@@ -188,4 +189,9 @@ label{
 
 .credit > a{
     color: #fff;
+}
+
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('../assets/fonts/Norse-Bold.otf');
 }
