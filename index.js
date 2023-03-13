@@ -112,11 +112,10 @@ function validateForm()
                 }
             }
 
-            // NOT WORKING
             else if(nameAttribute === 'phone-number')
             {
                 nameAttribute = nameAttribute.replace('-', ' ');
-                const regEx = '/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im';
+                const regEx = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
                 if(input.value.match(regEx))
                 {
                     displaySuccess(input, input.nextElementSibling, '');
