@@ -153,7 +153,14 @@ form{
 
     .header-text > p{
         padding: 0 1rem;
-        text-align: center;
+        text-align: center;    
+    }
+
+    .header-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
