@@ -150,6 +150,11 @@ form{
     .background-img{
         height: 100vh
     }
+
+    .header-text > p{
+        padding: 0 1rem;
+        text-align: center;
+    }
 }
 
 form > div{
